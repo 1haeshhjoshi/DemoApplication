@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.demoapplication.ProfileActivity">
+
+    <ImageView
+        android:scaleX="2"
+        android:scaleY="2"
+        android:scaleType="center"
+        android:src="@drawable/backgroundimage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp">
+
+            <Button
+                android:id="@+id/backbutton"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="12dp"
+                android:drawableLeft="@drawable/ic_keyboard_arrow_left_black"
+                android:text=""
+                android:background="@drawable/roundbtn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:paddingStart="12dp"
+                android:drawableStart="@drawable/ic_keyboard_arrow_left_black"
+                tools:ignore="RtlSymmetry" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    app:cardCornerRadius="12dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="40dp"
+                    app:cardUseCompatPadding="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="450dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="60dp"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:layout_height="wrap_content"
+                            tools:ignore="UselessParent">
+
+                            <TextView
+                                android:id="@+id/profilename"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/fontsfreenetsddd"
+                                android:text="@string/hiram_borer"
+                                android:textColor="#000000"
+                                android:textSize="17sp"
+                                android:textStyle="bold"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:id="@+id/profilesecondname"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:fontFamily="@font/fontsfreenetsddd"
+                                android:text="@string/sierra_leone"
+                                android:textColor="#f30278ff"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/profiledisc"
+                                android:gravity="center"
+                                android:lineSpacingExtra="4.8dp"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/fontsfreenetsddd"
+                                android:text="@string/quo_earum_qui_cumque_adipisci_architecto"
+                                android:textColor="#99000000"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="160dp"
+                                android:textStyle="bold"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="7dp"
+                                android:layout_marginTop="45dp"
+                                android:fontFamily="@font/fontsfreenetsddd"
+                                android:gravity="center"
+                                android:lineSpacingExtra="4.7dp"
+                                android:text="@string/about_me"
+                                android:textColor="#ef000000"
+                                android:textSize="14sp" />
+
+                            <View
+                                android:background="#ff0202"
+                                android:layout_gravity="center"
+                                android:layout_width="23dp"
+                                android:layout_marginBottom="7dp"
+                                android:layout_height="3dp"/>
+
+                            <TextView
+                                android:gravity="left"
+                                android:layout_gravity="center"
+                                android:lineSpacingExtra="4dp"
+                                android:layout_marginLeft="22dp"
+                                android:textStyle="bold"
+                                android:textColor="#f2000000"
+                                android:layout_marginRight="22dp"
+                                android:textSize="12sp"
+                                android:text="@string/quo_earum_qui_cumque_adipisci_architecto_voluptatem_ut_ducimus_commodi_aut_sed_debitis_aperiam_aut_quia_aut_veritatis_occaecati_cotporis_voluptatum_amnis_qui_qui_quas_et_qui_consequatur_molestiae_officiis_dignissimos_aspernatur_non_enim_sint_aliquid_quo_earum_qui_cumque_adipisci_architecto_voluptatem_ut_ducimus_commodi_aut_sed_debitis_aperiam_aut_quia_aut_veritatis_occaecati_corporis_voluptatum_omnis"
+                                android:layout_marginTop="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                tools:ignore="RtlHardcoded" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/circleView"
+                    android:layout_width="110dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_height="110dp"
+                    app:civ_border_width="4dp"
+                    android:layout_marginTop="50dp"
+                    app:civ_border_color="#ffffff"
+                    android:foregroundGravity="center"
+                    android:src="@drawable/backgroundimage" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

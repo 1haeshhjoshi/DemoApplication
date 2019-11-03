@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#54cfcece"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.demoapplication.MainActivity">
+
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardviewprofileone"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="13.5dp"
+                app:cardBackgroundColor="#fcffffff"
+                app:cardCornerRadius="13dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="17dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="76dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/ic_image_person_one"
+                        app:civ_border_color="#ffffff"
+                        android:layout_marginEnd="8dp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/fontsfreenetsddd"
+                            android:text="@string/hiram_borer_list"
+                            android:textColor="#000000"
+                            android:textSize="17sp"
+                            android:textStyle="bold"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/fontsfreenetsddd"
+                            android:text="@string/sierra_leone_list"
+                            android:textColor="#f30278ff"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:lineSpacingExtra="4.7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/fontsfreenetsddd"
+                            android:text="@string/quo_earum_qui_cumque_adipisci_architecto_list"
+                            android:textColor="#99000000"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/ic_right_black"
+                        android:layout_marginEnd="5dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardviewprofiletwo"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="13.5dp"
+                app:cardBackgroundColor="#fcffffff"
+                app:cardCornerRadius="12dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="17dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="76dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/ic_image_person_two"
+                        app:civ_border_color="#ffffff"
+                        android:layout_marginEnd="8dp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/fontsfreenetsddd"
+                            android:text="@string/taryn_nader_list"
+                            android:textColor="#000000"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/fontsfreenetsddd"
+                            android:text="@string/malawi_list"
+                            android:textColor="#f30278ff"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:lineSpacingExtra="4.7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/fontsfreenetsddd"
+                            android:text="@string/quidem_officiis_eos_vero_aut_deserunt_neque_list"
+                            android:textColor="#99000000"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/ic_right_black"
+                        android:layout_marginEnd="5dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardviewprofilethree"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="13.5dp"
+                app:cardBackgroundColor="#fcffffff"
+                app:cardCornerRadius="12dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="17dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="76dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/ic_image_person_three"
+                        app:civ_border_color="#ffffff"
+                        android:layout_marginEnd="8dp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/fontsfreenetsddd"
+                            android:text="@string/crowford_mann_list"
+                            android:textColor="#000000"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/fontsfreenetsddd"
+                            android:text="@string/albania_list"
+                            android:textSize="12sp"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="#f30278ff" />
+
+                        <TextView
+
+                            android:lineSpacingExtra="4.7dp"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/fontsfreenetsddd"
+                            android:text="@string/non_tempore_ut_voluptas_velit_qui_architecto_qui_list"
+                            android:textColor="#99000000" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/ic_right_black"
+                        android:layout_marginEnd="5dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardviewprofilefour"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="13.5dp"
+                app:cardBackgroundColor="#fcffffff"
+                app:cardCornerRadius="12dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="17dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="76dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/ic_image_person_four"
+                        app:civ_border_color="#ffffff"
+                        android:layout_marginEnd="8dp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/fontsfreenetsddd"
+                            android:text="@string/alf_hermiston_list"
+                            android:textColor="#000000"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/fontsfreenetsddd"
+                            android:text="@string/benin_list"
+                            android:textSize="12sp"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="#f30278ff" />
+
+                        <TextView
+
+                            android:lineSpacingExtra="4.7dp"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/fontsfreenetsddd"
+                            android:text="@string/repellendus_dolores_voluptatem_doloremque_list"
+                            android:textColor="#99000000" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/ic_right_black"
+                        android:layout_marginEnd="5dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardviewprofilefive"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#fcffffff"
+                app:cardCornerRadius="12dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="17dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="76dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/ic_image_person_five"
+                        app:civ_border_color="#ffffff"
+                        android:layout_marginEnd="8dp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_marginBottom="5dp"
+                            android:textSize="17sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/fontsfreenetsddd"
+                            android:text="@string/nicklaus_haag"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_marginBottom="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/fontsfreenetsddd"
+                            android:text="@string/anguilla_list"
+                            android:textSize="12sp"
+                            android:textColor="#f30278ff" />
+
+                        <TextView
+
+                            android:lineSpacingExtra="4.7dp"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/fontsfreenetsddd"
+                            android:text="@string/eum_illo_deleniti_deserunt_rerum_illo_explicabo_list"
+                            android:textColor="#97000000" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/ic_right_black"
+                        android:layout_marginEnd="10dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardviewprofilesix"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginBottom="13.5dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#fcffffff"
+                app:cardCornerRadius="12dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="17dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="76dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/ic_image_person_six"
+                        app:civ_border_color="#ffffff"
+                        android:layout_marginEnd="8dp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_marginBottom="5dp"
+                            android:textSize="17sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/fontsfreenetsddd"
+                            android:text="@string/mrs_idella_hauck_list"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/fontsfreenetsddd"
+                            android:text="@string/mongolia_list"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="12sp"
+                            android:textColor="#02a2ff" />
+
+                        <TextView
+                            android:lineSpacingExtra="4.7dp"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/fontsfreenetsddd"
+                            android:text="@string/minima_ut_sed_molestiae_quas_eos_rerum_unde_et_list"
+                            android:textColor="#97000000" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/ic_right_black"
+                        android:layout_marginEnd="10dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

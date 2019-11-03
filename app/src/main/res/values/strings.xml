@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Demo Application</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hiram_borer">Hiram Borer</string>
+    <string name="sierra_leone">Sierra Leone</string>
+    <string name="quo_earum_qui_cumque_adipisci_architecto">Quo earum qui cumque adipisci architecto.</string>
+    <string name="about_me">About me</string>
+    <string name="quo_earum_qui_cumque_adipisci_architecto_voluptatem_ut_ducimus_commodi_aut_sed_debitis_aperiam_aut_quia_aut_veritatis_occaecati_cotporis_voluptatum_amnis_qui_qui_quas_et_qui_consequatur_molestiae_officiis_dignissimos_aspernatur_non_enim_sint_aliquid_quo_earum_qui_cumque_adipisci_architecto_voluptatem_ut_ducimus_commodi_aut_sed_debitis_aperiam_aut_quia_aut_veritatis_occaecati_corporis_voluptatum_omnis">Quo earum qui cumque adipisci architecto. Voluptatem ut ducimus commodi aut sed. Debitis aperiam aut quia aut veritatis occaecati cotporis. Voluptatum amnis qui qui quas et qui. Consequatur molestiae officiis dignissimos aspernatur non enim sint aliquid. Quo earum qui cumque adipisci architecto. Voluptatem ut ducimus commodi aut sed. Debitis aperiam aut quia aut veritatis occaecati corporis. Voluptatum omnis</string>
+    <string name="hiram_borer_list">Hiram Borer</string>
+    <string name="sierra_leone_list">Sierra Leone</string>
+    <string name="quo_earum_qui_cumque_adipisci_architecto_list">Quo earum qui cumque adipisci architecto.</string>
+    <string name="taryn_nader_list">Taryn Nader</string>
+    <string name="malawi_list">Malawi</string>
+    <string name="quidem_officiis_eos_vero_aut_deserunt_neque_list">Quidem officiis eos vero aut deserunt. Neque</string>
+    <string name="crowford_mann_list">Crowford Mann</string>
+    <string name="albania_list">Albania</string>
+    <string name="non_tempore_ut_voluptas_velit_qui_architecto_qui_list">Non tempore ut voluptas velit qui. Architecto qui</string>
+    <string name="alf_hermiston_list">Alf Hermiston</string>
+    <string name="benin_list">Benin</string>
+    <string name="repellendus_dolores_voluptatem_doloremque_list">Repellendus dolores voluptatem doloremque</string>
+    <string name="nicklaus_haag">Nicklaus Haag</string>
+    <string name="anguilla_list">Anguilla</string>
+    <string name="eum_illo_deleniti_deserunt_rerum_illo_explicabo_list">Eum illo deleniti deserunt. Rerum illo explicabo</string>
+    <string name="mrs_idella_hauck_list">Mrs. Idella Hauck</string>
+    <string name="mongolia_list">Mongolia</string>
+    <string name="minima_ut_sed_molestiae_quas_eos_rerum_unde_et_list">Minima ut sed. Molestiae quas eos rerum unde et</string>
+</resources>
